@@ -1,0 +1,207 @@
+Great learning 
+
+Course: Table of Contents – Java 22, Spring Boot 3.x & Microservices Design Patterns
+
+PART 1: Modern Java – Java 22 (Foundation Layer)
+
+1. Java Platform Evolution
+1.1 Java Release Cadence – LTS vs Non‑LTS
+1.2 Positioning Java 22 in the Java Roadmap
+1.3 Java 22 – Key Goals and Enterprise Impact
+
+2. Java 22 Language Enhancements
+2.1 Unnamed Variables & Patterns (JEP 456)
+2.2 Statements Before super() (JEP 447)
+2.3 String Templates – Second Preview (JEP 459)
+2.4 Implicitly Declared Classes & Instance main Methods (JEP 463)
+
+3. Java 22 Concurrency & Performance
+3.1 Structured Concurrency – Second Preview
+3.2 Scoped Values – Second Preview
+3.3 Stream Gatherers (Custom Intermediate Operations)
+3.4 Vector API – Seventh Incubator
+3.5 G1 GC Region Pinning (Latency Optimisation)
+
+4. Java 22 Libraries & Tooling
+4.1 Foreign Function & Memory (FFM) API – Final
+4.2 Class‑File API – Preview
+4.3 Launching Multi‑File Source Code Programs
+4.4 Unicode & Locale Enhancements
+4.5 Deprecations and Removed APIs
+
+PART 2: Spring Boot 3.x – Application & Framework Layer
+
+5. Spring Boot 3.x Overview
+5.1 Spring Boot 3.x Evolution (3.0 → 3.5)
+5.2 Java Baseline (Java 17+) and Jakarta EE Migration
+5.3 Alignment with Spring Framework 6
+5.4 Spring Boot 3.x vs 2.x – Key Changes and Impact
+
+6. Core Spring Boot 3.x Architecture
+6.1 Auto‑Configuration & Starter Dependencies
+6.2 Embedded Servers (Tomcat, Jetty, Undertow)
+6.3 Externalised Configuration & Profiles
+6.4 Spring Boot Application Lifecycle
+6.5 Layered Architecture (Controller, Service, Repository)
+
+7. Building RESTful Services with Spring Boot 3
+7.1 REST API Design Principles
+7.2 Spring MVC vs WebFlux – Usage Guidelines
+7.3 Validation, Exception Handling & Error Responses
+7.4 DTOs, Records & Mapping Strategies
+7.5 OpenAPI / Swagger Documentation
+
+8. Data Access & Persistence
+8.1 Spring Data JPA with Jakarta Persistence
+8.2 Transactions & Isolation Levels
+8.3 Database Migration (Flyway / Liquibase)
+8.4 R2DBC & Reactive Data Access
+8.5 Multi‑Database & Polyglot Persistence
+
+9. Spring Boot 3.x Advanced Capabilities
+9.1 Virtual Threads Integration
+9.2 Native Images with GraalVM
+9.3 Observability (Micrometer, Metrics, Tracing)
+9.4 Actuator & Production Readiness
+9.5 Security Fundamentals with Spring Security 6
+
+PART 3: Microservices Architecture & Design Patterns
+
+10. Microservices Fundamentals
+10.1 Evolution: Monolith → SOA → Microservices
+10.2 Core Characteristics of Microservices
+10.3 Microservices vs Modular Monolith
+10.4 Distributed Systems Challenges
+
+11. Service Decomposition Patterns
+11.1 Domain‑Driven Design (Bounded Contexts)
+11.2 Database per Service
+11.3 Strangler Fig Pattern
+11.4 Self‑Contained Systems (SCS)
+11.5 API‑First / Contract‑First Design
+
+12. Communication Patterns
+
+12.1 Synchronous Communication (REST)
+12.2 Asynchronous Messaging (Kafka / Events)
+12.3 API Gateway Pattern
+12.4 Service Discovery Pattern
+12.5 Client‑Side vs Server‑Side Load Balancing
+
+13. Resilience & Fault‑Tolerance Patterns
+13.1 Circuit Breaker
+13.2 Retry & Timeout
+13.3 Bulkhead Pattern
+13.4 Fallback & Graceful Degradation
+13.5 Rate Limiting & Throttling
+
+14. Data Consistency & Transaction Patterns
+14.1 Saga Pattern (Choreography vs Orchestration)
+14.2 CQRS (Command Query Responsibility Segregation)
+14.3 Event Sourcing
+14.4 Outbox Pattern
+14.5 Idempotency in Distributed Systems
+
+15. Cross‑Cutting Concerns
+15.1 Centralised Configuration
+15.2 Distributed Tracing
+15.3 Logging & Correlation IDs
+15.4 Security (OAuth2, JWT, Zero Trust)
+15.5 API Versioning & Backward Compatibility
+
+16. Cloud‑Native Deployment & Operations
+16.1 Containerisation with Docker
+16.2 Kubernetes for Microservices
+16.3 Configuration & Secrets Management
+16.4 CI/CD Pipelines for Microservices
+16.5 Blue‑Green & Canary Deployments
+
+17. Testing Strategies for Microservices
+17.1 Unit & Slice Testing
+17.2 Contract Testing (Consumer‑Driven)
+17.3 Integration Testing
+17.4 End‑to‑End Testing
+17.5 Testcontainers & Environment Parity
+
+18. Reference Architecture & Case Study
+18.1 End‑to‑End Spring Boot Microservices Architecture
+18.2 Sample Services (Order, Payment, Inventory)
+18.3 Observability & Failure Scenarios
+18.4 Scaling & Performance Considerations
+18.5 Common Anti‑Patterns to Avoid
+
+PART 4: Apache Kafka & Event‑Driven Architecture
+
+19. Apache Kafka Fundamentals
+19.1 Why Kafka in Microservices
+19.2 Event‑Driven Architecture (EDA) Concepts
+19.3 Kafka vs Traditional Message Brokers
+19.4 Kafka Use Cases in Enterprise Systems
+
+20. Kafka Architecture & Core Concepts
+20.1 Kafka Cluster, Brokers & Topics
+20.2 Partitions, Replication & Ordering Guarantees
+20.3 Producers & Consumers
+20.4 Consumer Groups & Rebalancing
+20.5 Offsets, Retention & Replayability
+
+21. Kafka with Spring Boot 3.x
+21.1 Spring for Apache Kafka Overview
+21.2 Producer & Consumer Configuration
+21.3 Serialization (JSON, Avro)
+21.4 Error Handling & Retry Strategies
+21.5 KafkaTemplate & @KafkaListener Usage
+
+22. Event‑Driven Microservices Patterns with Kafka
+22.1 Publish‑Subscribe Pattern
+22.2 Event Notification vs Event‑Carried State
+22.3 Choreography‑Based Saga Pattern
+22.4 Event‑Driven CQRS
+22.5 Event Sourcing with Kafka
+
+23. Kafka Design & Operational Patterns
+23.1 Topic Design & Naming Conventions
+23.2 Partitioning Strategy & Message Keys
+23.3 Idempotent Producers & Exactly‑Once Semantics
+23.4 Dead Letter Topics (DLT)
+23.5 Schema Evolution & Compatibility
+
+24. Kafka Streams & Stream Processing
+24.1 Kafka Streams Overview
+24.2 Stateless vs Stateful Processing
+24.3 Aggregations, Joins & Windowing
+24.4 Real‑Time Analytics Use Cases
+24.5 Kafka Streams vs Flink / Spark
+
+25. Kafka‑Centric Data Consistency
+25.1 Saga Pattern with Kafka
+25.2 Outbox Pattern
+25.3 Change Data Capture (CDC)
+25.4 Idempotency & Exactly‑Once Processing
+25.5 Eventual Consistency Trade‑offs
+
+26. Observability, Security & Governance
+26.1 Monitoring Kafka (Lag, Throughput, Health)
+26.2 Distributed Tracing Across Kafka & REST
+26.3 Securing Kafka (SSL, SASL, ACLs)
+26.4 Multi‑Tenant Kafka & Topic Governance
+26.5 Auditing & Compliance
+
+27. Cloud‑Native Kafka Deployments
+27.1 Kafka on Docker & Kubernetes
+27.2 Managed Kafka (Confluent, MSK, Azure Event Hubs)
+27.3 Scaling & High Availability
+27.4 Disaster Recovery & Multi‑Cluster Kafka
+
+28. Testing Event‑Driven Microservices
+28.1 Testing Kafka Producers & Consumers
+28.2 Embedded Kafka & Testcontainers
+28.3 Contract Testing for Events
+28.4 End‑to‑End Event Flow Testing
+
+29. Kafka Reference Architecture & Case Study
+29.1 Spring Boot Microservices with Kafka Architecture
+29.2 Order → Payment → Inventory Event Flow
+29.3 Failure Scenarios & Recovery
+29.4 Scaling & Performance Considerations
+29.5 Common Kafka Anti‑Patterns:

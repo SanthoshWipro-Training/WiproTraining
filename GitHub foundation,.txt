@@ -1,0 +1,9 @@
+GitHub foundation,
+GitHub Copilot It is part of Ai(Artificial Intelligence),
+1.Weak Ai- it is focused on specific capability or intelligence of human.
+2.Strong Ai - intelligence of human is equal to the intelligence of machine.
+
+Machine Learning:  it is focused on specific capability of learning the past data inside ML there is Deep Learning it inspired by human neural networks.
+
+Inside deep learning we have Gen Ai(Generative Ai)
+GitHub Copilot is used.
